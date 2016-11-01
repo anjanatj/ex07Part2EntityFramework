@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AC38187B-CBB8-416A-A4B1-320A1B684A65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{11CE4F57-8A42-4ACA-B552-611053CAA356}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SportsStore", "src\SportsStore\SportsStore.xproj", "{6EF13274-953F-4E9E-ACFF-EF6311F2D734}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{AD595894-04FB-4752-A138-9D51B249E366}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SportsStore.Tests", "test\SportsStore.Tests\SportsStore.Tests.xproj", "{56F68289-881E-422F-ABAA-7CAE6E05924D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EF13274-953F-4E9E-ACFF-EF6311F2D734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF13274-953F-4E9E-ACFF-EF6311F2D734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF13274-953F-4E9E-ACFF-EF6311F2D734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF13274-953F-4E9E-ACFF-EF6311F2D734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F68289-881E-422F-ABAA-7CAE6E05924D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F68289-881E-422F-ABAA-7CAE6E05924D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F68289-881E-422F-ABAA-7CAE6E05924D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F68289-881E-422F-ABAA-7CAE6E05924D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6EF13274-953F-4E9E-ACFF-EF6311F2D734} = {AC38187B-CBB8-416A-A4B1-320A1B684A65}
+		{56F68289-881E-422F-ABAA-7CAE6E05924D} = {AD595894-04FB-4752-A138-9D51B249E366}
+	EndGlobalSection
+EndGlobal
